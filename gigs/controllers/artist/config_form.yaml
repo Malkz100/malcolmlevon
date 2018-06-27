@@ -1,0 +1,13 @@
+name: Artist
+modelClass: MalcolmLevon\Gigs\Models\Artist
+form: $/malcolmlevon/gigs/models/artist/artist-fields.yaml
+defaultRedirect: malcolmlevon/gigs/artist
+create:
+    title: 'malcolmlevon.gigs::lang.gigs.add_gig'
+    redirect: 'malcolmlevon/gigs/artist/update/:id'
+    redirectClose: malcolmlevon/gigs/artist
+update:
+    title: 'malcolmlevon.gigs::lang.gigs.update_gig'
+    redirect: malcolmlevon/gigs/artist
+    redirectClose: malcolmlevon/gigs/artist
+preview: {  }

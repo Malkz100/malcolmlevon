@@ -1,0 +1,12 @@
+title: Gigs
+modelClass: MalcolmLevon\Gigs\Models\Gigs
+list: $/malcolmlevon/gigs/models/gigs/columns.yaml
+recordUrl: 'malcolmlevon/gigs/gigs/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

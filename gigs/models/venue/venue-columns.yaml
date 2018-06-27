@@ -1,0 +1,25 @@
+columns:
+    venue_name:
+        label: 'malcolmlevon.gigs::lang.venue.name'
+        type: text
+        searchable: true
+        sortable: true
+    venue_phone:
+        label: 'malcolmlevon.gigs::lang.venue.venue_phone'
+        type: text
+        searchable: true
+    venue_address1:
+        label: 'malcolmlevon.gigs::lang.venue.address1'
+        type: text
+        searchable: true
+        sortable: true
+    town_city:
+        label: 'malcolmlevon.gigs::lang.venue.town_city'
+        type: text
+        searchable: true
+        sortable: true
+    venue_postcode:
+        label: 'malcolmlevon.gigs::lang.venue.postcode'
+        type: text
+        searchable: true
+        sortable: true

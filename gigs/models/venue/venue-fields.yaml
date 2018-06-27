@@ -1,0 +1,35 @@
+fields:
+    venue_name:
+        label: 'malcolmlevon.gigs::lang.venue.venue_name'
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: 'malcolmlevon.gigs::lang.venue.venue_slug'
+        span: auto
+        preset:
+            field: venue_name
+            type: slug
+        type: text
+    venue_address1:
+        label: 'malcolmlevon.gigs::lang.venue.address1'
+        span: auto
+        required: 1
+        type: text
+    venue_address2:
+        label: 'malcolmlevon.gigs::lang.venue.address2'
+        span: auto
+        type: text
+    town_city:
+        label: 'malcolmlevon.gigs::lang.venue.town_city'
+        span: auto
+        type: text
+    venue_postcode:
+        label: 'malcolmlevon.gigs::lang.venue.venue_postcode'
+        span: auto
+        required: 1
+        type: text
+    venue_phone:
+        label: 'malcolmlevon.gigs::lang.venue.venue_phone'
+        span: auto
+        type: text

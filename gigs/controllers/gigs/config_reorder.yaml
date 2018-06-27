@@ -1,0 +1,5 @@
+title: Gigs
+modelClass: MalcolmLevon\Gigs\Models\Gigs
+nameFrom: gig_title
+toolbar:
+    buttons: reorder_toolbar

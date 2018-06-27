@@ -1,0 +1,30 @@
+plugin:
+    name: 'malcolmlevon.gigs::lang.plugin.name'
+    description: 'malcolmlevon.gigs::lang.plugin.description'
+    author: Levon
+    icon: oc-icon-adjust
+    homepage: ''
+permissions:
+    gigs.manage_gigs:
+        tab: 'malcolmlevon.gigs::lang.plugin.name'
+        label: 'Manage Gigs'
+navigation:
+    events:
+        label: Events
+        url: malcolmlevon/gigs/gigs
+        icon: icon-music
+        permissions:
+            - gigs.manage_gigs
+        sideMenu:
+            gigs:
+                label: Gigs
+                url: malcolmlevon/gigs/gigs
+                icon: icon-microphone
+            Artist:
+                label: Artist
+                url: malcolmlevon/gigs/artist
+                icon: icon-user
+            venue:
+                label: Venue
+                url: malcolmlevon/gigs/venue
+                icon: icon-bank

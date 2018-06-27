@@ -1,0 +1,10 @@
+columns:
+    artist_name:
+        label: 'malcolmlevon.gigs::lang.artist.name'
+        type: text
+    artist_description:
+        label: 'malcolmlevon.gigs::lang.artist.short_description'
+        type: text
+    artist_phone:
+        label: 'malcolmlevon.gigs::lang.artist.phone'
+        type: text

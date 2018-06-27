@@ -1,0 +1,15 @@
+title: Artist
+modelClass: MalcolmLevon\Gigs\Models\Artist
+list: $/malcolmlevon/gigs/models/artist/artist-columns.yaml
+recordUrl: 'malcolmlevon/gigs/artist/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+defaultSort:
+    column: artist_name
+    direction: asc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

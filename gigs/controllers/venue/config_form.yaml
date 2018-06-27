@@ -1,0 +1,10 @@
+name: Venue
+modelClass: MalcolmLevon\Gigs\Models\Venue
+form: $/malcolmlevon/gigs/models/venue/venue-fields.yaml
+defaultRedirect: malcolmlevon/gigs/venue
+create:
+    redirect: 'malcolmlevon/gigs/venue/update/:id'
+    redirectClose: malcolmlevon/gigs/venue
+update:
+    redirect: malcolmlevon/gigs/venue
+    redirectClose: malcolmlevon/gigs/venue

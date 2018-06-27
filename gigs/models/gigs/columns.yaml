@@ -1,0 +1,36 @@
+columns:
+    gig_title:
+        label: 'malcolmlevon.gigs::lang.gig.title'
+        type: text
+        searchable: true
+        sortable: true
+    gig_date_time:
+        label: 'malcolmlevon.gigs::lang.gigs.date-time'
+        type: datetime
+        searchable: true
+        sortable: true
+    gig_description:
+        label: 'malcolmlevon.gigs::lang.gigs.gig_description'
+        type: text
+        searchable: true
+        sortable: true
+    price:
+        label: 'malcolmlevon.gigs::lang.gigs.price'
+        type: number
+    reduced_price:
+        label: 'malcolmlevon.gigs::lang.gigs.reduced_price'
+        type: number
+    venue_name:
+        label: Venue-Name
+        type: text
+        searchable: true
+        sortable: true
+        select: venue_name
+        relation: venue
+    artist_name:
+        label: 'malcolmlevon.gigs::lang.artist.name'
+        type: text
+        searchable: true
+        sortable: true
+        select: artist_name
+        relation: artist

@@ -1,0 +1,52 @@
+fields:
+    gig_title:
+        label: 'malcolmlevon.gigs::lang.gig.title'
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: 'malcolmlevon.gigs::lang.gig.slug'
+        span: auto
+        preset:
+            field: gig_title
+            type: slug
+        type: text
+    gig_description:
+        label: 'malcolmlevon.gigs::lang.gig.description'
+        size: large
+        span: full
+        type: richeditor
+    artist_id:
+        label: 'Choose Artist'
+        span: auto
+        placeholder: Artist
+        required: 1
+        type: dropdown
+    venue_id:
+        label: 'Choose Venue'
+        span: auto
+        placeholder: Venue
+        required: 1
+        type: dropdown
+    price:
+        label: 'malcolmlevon.gigs::lang.gig.price'
+        span: auto
+        default: '0.00'
+        required: 1
+        type: number
+    reduced_price:
+        label: 'malcolmlevon.gigs::lang.gig.reduced-price'
+        span: auto
+        default: '0.00'
+        type: number
+    gig_date_time:
+        label: 'malcolmlevon.gigs::lang.gig.date-time'
+        mode: datetime
+        span: auto
+        required: 1
+        type: datepicker
+    published_at:
+        label: 'malcolmlevon.gigs::lang.gig.published-at'
+        mode: datetime
+        span: auto
+        type: datepicker
