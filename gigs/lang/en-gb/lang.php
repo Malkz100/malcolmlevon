@@ -7,6 +7,13 @@
         'description' => 'Description',
         'phonenumber' => 'Phone',
         'artist_name' => 'Artist Name',
+        'facebook' => 'Facebook Link',
+        'soundcloud' => 'SoundCloud',
+        'instagram' => 'Instagram Link',
+        'social-links' => 'Social Links',
+        'photo-upload' => 'Photo Upload',
+        'featured-images' => 'Artist Image',
+        'featured-image' => 'Image',
     ],
     'gigs' => [
         'add_gig' => 'Add Gig',

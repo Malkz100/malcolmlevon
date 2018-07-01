@@ -24,4 +24,12 @@ class Artist extends Model
      */
     public $table = 'malcolmlevon_gigs_artist';
 
+    /**
+	 *define a relationship to the System\Models\File class for photo upload
+     */
+	public $attachMany = [
+		'featured_images' => ['System\Models\File', 'order' => 'sort_order'],
+		'content_images' => ['System\Models\File']
+	];
+
 }

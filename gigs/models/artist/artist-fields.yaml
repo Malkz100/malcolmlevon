@@ -21,3 +21,31 @@ fields:
         label: 'malcolmlevon.gigs::lang.artist.phone'
         span: auto
         type: text
+    featured_images:
+        label: 'malcolmlevon.gigs::lang.artist.featured-images'
+        mode: image
+        fileTypes: 'jpg, JPG, jpeg, png, gif'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        prompt: 'Upload photo'
+        type: fileupload
+tabs:
+    fields:
+        facebook:
+            label: 'malcolmlevon.gigs::lang.artist.facebook'
+            span: auto
+            type: text
+            tab: 'malcolmlevon.gigs::lang.artist.social-links'
+        soundcloud:
+            label: 'malcolmlevon.gigs::lang.artist.soundcloud'
+            span: auto
+            type: text
+            tab: 'malcolmlevon.gigs::lang.artist.social-links'
+        instagram:
+            label: 'malcolmlevon.gigs::lang.artist.instagram'
+            span: auto
+            type: text
+            tab: 'malcolmlevon.gigs::lang.artist.social-links'
