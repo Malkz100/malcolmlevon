@@ -96,3 +96,24 @@
 1.0.33:
     - 'Updated table malcolmlevon_gigs_artist'
     - builder_table_update_malcolmlevon_gigs_artist_11.php
+1.0.34:
+    - 'Updated table malcolmlevon_gigs_gig'
+    - builder_table_update_malcolmlevon_gigs_gig_12.php
+1.0.35:
+    - 'Created table malcolmlevon_gigs_gig_artists'
+    - builder_table_create_malcolmlevon_gigs_gig_artists.php
+1.0.36:
+    - 'Updated table malcolmlevon_gigs_artist'
+    - builder_table_update_malcolmlevon_gigs_artist_12.php
+1.0.37:
+    - 'Updated table malcolmlevon_gigs_gig'
+    - builder_table_update_malcolmlevon_gigs_gig_13.php
+1.0.38:
+    - 'Updated table malcolmlevon_gigs_venue'
+    - builder_table_update_malcolmlevon_gigs_venue_7.php
+1.0.39:
+    - 'Updated table malcolmlevon_gigs_gig_artists'
+    - builder_table_update_malcolmlevon_gigs_gig_artists.php
+1.0.40:
+    - 'Updated table malcolmlevon_gigs_gig_artists'
+    - builder_table_update_malcolmlevon_gigs_gig_artists_2.php

@@ -16,17 +16,12 @@ fields:
         size: large
         span: full
         type: richeditor
-    artist_id:
-        label: 'Choose Artist'
-        span: auto
-        placeholder: Artist
-        required: 1
-        type: dropdown
     venue_id:
         label: 'Choose Venue'
         span: auto
         placeholder: Venue
         required: 1
+        cssClass: dropdown
         type: dropdown
     price:
         label: 'malcolmlevon.gigs::lang.gig.price'
@@ -50,3 +45,7 @@ fields:
         mode: datetime
         span: auto
         type: datepicker
+    artists:
+        label: 'Choose Artists'
+        span: left
+        type: artistbox

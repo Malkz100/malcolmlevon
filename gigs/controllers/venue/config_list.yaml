@@ -1,6 +1,6 @@
 title: Venue
 modelClass: MalcolmLevon\Gigs\Models\Venue
-list: $/malcolmlevon/gigs/models/venue/venue-columns.yaml
+list: $/malcolmlevon/gigs/models/venue/columns.yaml
 recordUrl: 'malcolmlevon/gigs/venue/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'
 recordsPerPage: 20

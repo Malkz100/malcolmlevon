@@ -14,6 +14,7 @@
         'photo-upload' => 'Photo Upload',
         'featured-images' => 'Artist Image',
         'featured-image' => 'Image',
+        'name' => 'Artist Name',
     ],
     'gigs' => [
         'add_gig' => 'Add Gig',
@@ -26,6 +27,12 @@
         'date' => 'Date',
         'date-time' => 'Date - Time',
         'artist_name' => 'Artist Name',
+        'artists' => 'Artists',
+        'artists_name' => 'Artists Name',
+        'gig_title' => 'Gig Title',
+        'gig_datetime' => 'Date Time',
+        'gig_price' => 'Price',
+        'gig_venue' => 'Venue',
     ],
     'venue' => [
         'address1' => 'Address 1',
@@ -36,5 +43,4 @@
         'venue_name' => 'Venue Name',
         'town_city' => 'Town City',
     ],
-    'artist,artist_name' => 'Artist Name',
 ];

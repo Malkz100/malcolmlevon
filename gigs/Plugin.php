@@ -18,6 +18,16 @@ class Plugin extends PluginBase
     {
     }
 
+    public function registerFormWidgets()
+    {
+    	return[
+    		'MalcolmLevon\Gigs\FormWidgets\Artistbox' =>[
+    			'label' => 'Artistbox field',
+			    'code' => 'artistbox'
+		    ]
+	    ];
+    }
+
     public function registerSettings()
     {
     }

@@ -1,0 +1,5 @@
+title: Venue
+modelClass: MalcolmLevon\Gigs\Models\Venue
+nameFrom: venue_name
+toolbar:
+    buttons: reorder_toolbar

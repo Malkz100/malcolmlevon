@@ -27,10 +27,3 @@ columns:
         sortable: true
         select: venue_name
         relation: venue
-    artist_name:
-        label: 'malcolmlevon.gigs::lang.artist.name'
-        type: text
-        searchable: true
-        sortable: true
-        select: artist_name
-        relation: artist

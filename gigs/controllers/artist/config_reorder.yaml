@@ -1,0 +1,5 @@
+title: Artist
+modelClass: MalcolmLevon\Gigs\Models\Artist
+nameFrom: artist_name
+toolbar:
+    buttons: reorder_toolbar

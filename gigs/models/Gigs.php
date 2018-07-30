@@ -1,8 +1,8 @@
 <?php namespace MalcolmLevon\Gigs\Models;
 
 use Model;
-use \MalcolmLevon\gigs\models\Artist;
-use \MalcolmLevon\gigs\models\Venue;
+use \MalcolmLevon\Gigs\Models\Artist;
+use \MalcolmLevon\Gigs\Models\Venue;
 
 /**
  * Model
@@ -12,6 +12,8 @@ class Gigs extends Model
     use \October\Rain\Database\Traits\Validation;
     
     use \October\Rain\Database\Traits\SoftDelete;
+
+	use \October\Rain\Database\Traits\Sortable;
 
     protected $dates = ['deleted_at'];
 
@@ -27,13 +29,18 @@ class Gigs extends Model
     public $table = 'malcolmlevon_gigs_gig';
 
 	/**
-	 * @return array
+	 * @var array for artists list in create gig form
 	 */
-	public function getArtistIdOptions()
-	{
-		$fields =  Artist::lists('artist_name','id');
-		return $fields;
-	}
+    //                    protected $jsonable = ['artists'];
+
+	/**
+	 * @return array for drop down list in gigs form
+	 */
+//	public function getArtistIdOptions()
+//	{
+//		$fields =  Artist::lists('artist_name','id');
+//		return $fields;
+//	}
 
 	/**
 	 * @return array
@@ -45,12 +52,18 @@ class Gigs extends Model
 	}
 
 	public $belongsTo = [
-		'venue' =>['malcolmlevon\Gigs\Models\Venue'],
-		'artist' =>['malcolmlevon\Gigs\Models\Artist']
+		'venue' =>['malcolmlevon\Gigs\Models\Venue']
+//		'artist' =>['malcolmlevon\Gigs\Models\Artist']
 	];
 
-//	public $hasMany = [
-//		'artist' =>['malcolmlevon\Gigs\Models\Artist']
-//	];
+	public $belongsToMany = [
+		'artists' =>[
+			'MalcolmLevon\Gigs\Models\Artist',
+			'table' => 'malcolmlevon_gigs_gig_artists',
+			//'order' => 'artist_name',
+			'key' => 'artist_id',
+			'otherKey' => 'gig_id'
+		]
+	];
 
 }

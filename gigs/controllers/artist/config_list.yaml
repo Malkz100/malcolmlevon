@@ -1,6 +1,6 @@
 title: Artist
 modelClass: MalcolmLevon\Gigs\Models\Artist
-list: $/malcolmlevon/gigs/models/artist/artist-columns.yaml
+list: $/malcolmlevon/gigs/models/artist/columns.yaml
 recordUrl: 'malcolmlevon/gigs/artist/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'
 recordsPerPage: 20

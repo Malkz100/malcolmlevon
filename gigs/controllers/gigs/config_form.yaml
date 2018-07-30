@@ -1,6 +1,6 @@
 name: Gigs
 modelClass: MalcolmLevon\Gigs\Models\Gigs
-form: $/malcolmlevon/gigs/models/gigs/gig-fields.yaml
+form: $/malcolmlevon/gigs/models/gigs/fields.yaml
 defaultRedirect: malcolmlevon/gigs/gigs
 create:
     redirect: 'malcolmlevon/gigs/gigs/update/:id'
@@ -8,4 +8,3 @@ create:
 update:
     redirect: malcolmlevon/gigs/gigs
     redirectClose: malcolmlevon/gigs/gigs
-preview: {  }

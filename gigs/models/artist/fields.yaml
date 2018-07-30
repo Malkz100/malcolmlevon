@@ -1,6 +1,6 @@
 fields:
     artist_name:
-        label: 'malcolmlevon.gigs::lang.artist,artist_name'
+        label: 'malcolmlevon.gigs::lang.artist.name'
         span: auto
         required: 1
         type: text
